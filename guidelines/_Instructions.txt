@@ -7,7 +7,7 @@ Step 1
 
 1. Read through all the instructions!
 
-2. Review the Copy-Document.docx which provides all the correct contextual information for this evaluation.
+2. Review the Copy-Document.txt which provides all the correct contextual information for this evaluation.
 
 3. It is recommend that you review all the provided assets before starting the test.
 
