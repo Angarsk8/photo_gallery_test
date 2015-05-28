@@ -72,13 +72,13 @@ $(document).ready(function () {
                     photos[i].location + ' on ' +
                     photos[i].date;
 
-                $('#slider-description-title').empty().append(photos[i].title);
-                $('#slider-description-content').empty().append(description);
+                $('.conference-title').empty().append(photos[i].title);
+                $('.conference-description').empty().append(description);
                 $('#' + lastId).addClass('black-white');
                 $(this).children().removeClass('black-white');
 
                 newImage.hide();
-                $('#slider-image').append(newImage);
+                $('.image-slider').append(newImage);
                 oldImage.remove();
                 newImage.show();
                 lastId = id;
@@ -87,6 +87,8 @@ $(document).ready(function () {
     });
 
     //bind an "on click" function to allow the right arrow icon react to the user's click
+    /*
+    
     $('#right-icon').on('click', function () {
 
         if (lastId < numberOfPhotos) {
@@ -134,5 +136,5 @@ $(document).ready(function () {
             newImage.show();
             lastId--;
         }
-    }); * /
+    }); */
 });

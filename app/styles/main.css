@@ -18,18 +18,80 @@
     border-bottom: 1px solid #e5e5e5;
     background: url(../images/assets/Main-BG.png);
     background-size: cover;
-    height: 580px;
+    height: auto;
     padding: 0;
     margin: 0;
 }
 
-.image-slider img {
+.image-slider {
+    position: relative;
     margin: 0 auto;
+    width: 600px;
+}
+
+.image-slider .left-arrow {
+    position: absolute;
+    background: url(../images/assets/left-button-box.png);
+    background-size: cover;
+    width: 93px;
+    height: 98px;
+    top: 38%;
+    left: -45px;
+}
+
+.image-slider #left-icon {
+    position: absolute;
+    background: url(../images/assets/left-arrow.png);
+    background-size: cover;
+    width: 11px;
+    height: 22px;
+    top: 46.5%;
+    left: -4.5px;
+    cursor: pointer;
+}
+
+.image-slider #left-icon:hover {
+    background: url(../images/assets/left-arrow-hover.png);
+}
+
+.image-slider .right-arrow {
+    position: absolute;
+    background: url(../images/assets/left-button-box.png);
+    background-size: cover;
+    width: 93px;
+    height: 98px;
+    top: 38%;
+    right: -45px;
+}
+
+#right-icon {
+    position: absolute;
+    -webkit-transform: scaleX(-1);
+    -ms-transform: scaleX(-1);
+    transform: scaleX(-1);
+    -webkit-filter: FlipH;
+    filter: FlipH;
+    background: url(../../images/assets/left-arrow.png);
+    background-size: cover;
+    height: 22px;
+    width: 11px;
+    top: 46.5%;
+    right: -4.5px;
+    cursor: pointer;
+}
+
+#right-icon:hover {
+    background: url(../images/assets/left-arrow-hover.png);
+}
+
+.image-slider img {
     padding-top: 55px;
+    margin: 0 auto;
 }
 
 #conference {
-    margin-top: 40px;
+    margin-top: 5%;
+    margin-bottom: 5%;
 }
 
 .conference-title {
@@ -46,8 +108,8 @@
 .light-box {
     background: url(../images/assets/thumbnail-bar.png);
     background-size: cover;
-    height: 200px;
-    padding-top: 75px;
+    padding-top: 5%;
+    padding-bottom: 5%;
 }
 
 .slider-thumbnail img {
@@ -55,12 +117,24 @@
     margin-right: 5px;
 }
 
-@media screen and (min-width: 768px) {
-    .container {
-        min-width: 1037px;
+.black-white {
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
+
+@media only screen and (max-width: 600px) {
+    .jumbotron {
+        height: auto;
     }
-    .header,
-    .light-box {}
-    .header {}
-    .jumbotron {}
+    .left-arrow,
+    .right-arrow,
+    #left-icon,
+    #right-icon {
+        display: none;
+    }
+    .image-slider {
+        position: relative;
+        margin: 0 auto;
+        width: auto;
+    }
 }
