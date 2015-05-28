@@ -1,36 +1,36 @@
 @font-face {
     font-family: "NeoSansIntel";
-    src: url("../fonts/NeoSansIntel.ttf");
+    src: url("fonts/NeoSansIntel.ttf");
 }
 
 @font-face {
     font-family: "NeoSansIntel-Light";
-    src: url("../fonts/NeoSansIntel-Light.ttf");
+    src: url("fonts/NeoSansIntel-Light.ttf");
 }
 
 @font-face {
     font-family: "NeoSansIntel-Italic";
-    src: url("../fonts/NeoSansIntel-Italic.ttf");
+    src: url("fonts/NeoSansIntel-Italic.ttf");
 }
 
 @font-face {
     font-family: "NeoSansIntel-Medium";
-    src: url("../fonts/NeoSansIntel-Medium.ttf");
+    src: url("fonts/NeoSansIntel-Medium.ttf");
 }
 
 @font-face {
     font-family: "NeoSansIntel-MediumItalic";
-    src: url("../fonts/NeoSansIntel-MediumItalic.ttf");
+    src: url("fonts/NeoSansIntel-MediumItalic.ttf");
 }
 
 @font-face {
     font-family: "NeoSansIntel-LightItalic";
-    src: url("../fonts/NeoSansIntel-LightItalic.ttf");
+    src: url("fonts/NeoSansIntel-LightItalic.ttf");
 }
 
 @font-face {
     font-family: "NexaLight";
-    src: url("../fonts/Nexa Light.otf");
+    src: url("fonts/Nexa Light.otf");
 }
 
 .header {
