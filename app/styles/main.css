@@ -1,7 +1,7 @@
 .header {
     position: relative;
     border-bottom: 1px solid #e5e5e5;
-    background: url(../images/Title-Bar.png);
+    background: url(../images/assets/Title-Bar.png);
     background-size: cover;
     height: 74px;
 }
@@ -14,7 +14,7 @@
 }
 
 .light-box {
-    background: url(../images/thumbnail-bar.png);
+    background: url(../images/assets/thumbnail-bar.png);
     background-size: cover;
     height: 200px;
 }
@@ -22,7 +22,7 @@
 .jumbotron {
     text-align: center;
     border-bottom: 1px solid #e5e5e5;
-    background: url(../images/Main-BG.png);
+    background: url(../images/assets/Main-BG.png);
     background-size: cover;
     height: 580px;
     padding: 0;
