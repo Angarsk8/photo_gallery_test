@@ -87,28 +87,27 @@ $(document).ready(function () {
     });
 
     //bind an "on click" function to allow the right arrow icon react to the user's click
-    /*
-    
+
     $('#right-icon').on('click', function () {
 
         if (lastId < numberOfPhotos) {
 
             console.log(lastId);
-            oldImage = $('#slider-image img');
+            oldImage = $('.image-slider img');
             newImage = $('<img class="img-responsive text-center" src="' + photos[lastId].image + '">');
             description = 'Taken at the intel conference in ' +
                 photos[lastId].location + ' on ' +
                 photos[lastId].date;
 
-            $('#slider-description-title').empty().append(photos[lastId].title);
-            $('#slider-description-content').empty().append(description);
+            $('.conference-title').empty().append(photos[lastId].title);
+            $('.conference-descrition').empty().append(description);
             $('#' + (parseInt(lastId) + 1)).removeClass('black-white');
             $('#' + lastId).addClass('black-white');
 
             newImage.hide();
-            $('#slider-image').append(newImage);
-            oldImage.remove();
+            $('.image-slider').append(newImage);
             newImage.show();
+            oldImage.remove();
             lastId++;
         }
     });
@@ -119,22 +118,22 @@ $(document).ready(function () {
         if (lastId > 1) {
 
             console.log(lastId);
-            oldImage = $('#slider-image img');
+            oldImage = $('.image-slider img');
             newImage = $('<img class="img-responsive text-center" src="' + photos[parseInt(lastId) - 2].image + '">');
             description = 'Taken at the intel conference in ' +
                 photos[parseInt(lastId) - 2].location + ' on ' +
                 photos[parseInt(lastId) - 2].date;
 
-            $('#slider-description-title').empty().append(photos[parseInt(lastId) - 2].title);
-            $('#slider-description-content').empty().append(description);
+            $('.conference-title').empty().append(photos[parseInt(lastId) - 2].title);
+            $('.conference-description').empty().append(description);
             $('#' + (parseInt(lastId) - 1)).removeClass('black-white');
             $('#' + lastId).addClass('black-white');
 
             newImage.hide();
-            $('#slider-image').append(newImage);
+            $('.image-slider').append(newImage);
             oldImage.remove();
             newImage.show();
             lastId--;
         }
-    }); */
+    });
 });

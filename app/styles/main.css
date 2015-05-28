@@ -1,3 +1,38 @@
+@font-face {
+    font-family: "NeoSansIntel";
+    src: url("../fonts/NeoSansIntel.ttf");
+}
+
+@font-face {
+    font-family: "NeoSansIntel-Light";
+    src: url("../fonts/NeoSansIntel-Light.ttf");
+}
+
+@font-face {
+    font-family: "NeoSansIntel-Italic";
+    src: url("../fonts/NeoSansIntel-Italic.ttf");
+}
+
+@font-face {
+    font-family: "NeoSansIntel-Medium";
+    src: url("../fonts/NeoSansIntel-Medium.ttf");
+}
+
+@font-face {
+    font-family: "NeoSansIntel-MediumItalic";
+    src: url("../fonts/NeoSansIntel-MediumItalic.ttf");
+}
+
+@font-face {
+    font-family: "NeoSansIntel-LightItalic";
+    src: url("../fonts/NeoSansIntel-LightItalic.ttf");
+}
+
+@font-face {
+    font-family: "NexaLight";
+    src: url("../fonts/Nexa Light.otf");
+}
+
 .header {
     position: relative;
     border-bottom: 1px solid #e5e5e5;
@@ -9,7 +44,8 @@
 .title-slider {
     position: relative;
     color: #ffff00;
-    font: 400 25px NeoSansIntel;
+    font: 400 28px NeoSansIntel;
+    font-weight: bolder;
     padding-top: 23px;
 }
 
@@ -98,11 +134,13 @@
     color: #ffff00;
     font: 400 22px / 20px NeoSansIntel;
     line-height: 25px;
+    text-shadow: 5px 4px 4px #505050;
 }
 
 .conference-description {
     color: #ffff00;
     font: 400 18px / 16px NeoSansIntel;
+    text-shadow: 3px 3px 3px #505050;
 }
 
 .light-box {
@@ -115,6 +153,7 @@
 .slider-thumbnail img {
     margin-left: 5px;
     margin-right: 5px;
+    margin-top: 5px;
 }
 
 .black-white {
@@ -123,6 +162,9 @@
 }
 
 @media only screen and (max-width: 600px) {
+    .title-slider {
+        font-size: 21px;
+    }
     .jumbotron {
         height: auto;
     }
@@ -132,9 +174,16 @@
     #right-icon {
         display: none;
     }
+    .conference-title {
+        font-size: 18px;
+    }
+    .conference-description {
+        font-size: 14px;
+    }
     .image-slider {
         position: relative;
-        margin: 0 auto;
+        margin-left: 5%;
+        margin-right: 5%;
         width: auto;
     }
 }
