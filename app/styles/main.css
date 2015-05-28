@@ -2,20 +2,21 @@
     position: relative;
     border-bottom: 1px solid #e5e5e5;
     background: url(../images/Title-Bar.png);
+    background-size: cover;
     height: 74px;
 }
 
 .title-slider {
     position: relative;
     color: #ffff00;
-    font: 400 20px NeoSansIntel;
+    font: 400 25px NeoSansIntel;
     padding-top: 23px;
 }
 
-.footer {
-    padding-top: 19px;
-    color: #777;
-    border-top: 1px solid #e5e5e5;
+.light-box {
+    background: url(../images/thumbnail-bar.png);
+    background-size: cover;
+    height: 200px;
 }
 
 .jumbotron {
@@ -30,16 +31,10 @@
 
 @media screen and (min-width: 768px) {
     .container {
-        max-width: 730px;
+        min-width: 1037px;
     }
-    /* Remove the padding we set earlier */
-    
     .header,
-    .footer {}
-    /* Space out the masthead */
-    
+    .light-box {}
     .header {}
-    /* Remove the bottom border on the jumbotron for visual effect */
-    
     .jumbotron {}
 }
