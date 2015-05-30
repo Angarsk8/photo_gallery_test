@@ -25,6 +25,8 @@ $(document).ready(function () {
 
         $('.slider-thumbnail').append(output);
     }
+    
+    
 
     //load page function: Initialize the html document, by populating it with the info provided in the Json file
     var loadPage = function () {

@@ -1,36 +1,36 @@
 @font-face {
     font-family: "NeoSansIntel";
-    src: url("fonts/NeoSansIntel.ttf");
+    src: url("../fonts/NeoSansIntel.ttf");
 }
 
 @font-face {
     font-family: "NeoSansIntel-Light";
-    src: url("fonts/NeoSansIntel-Light.ttf");
+    src: url("../fonts/NeoSansIntel-Light.ttf");
 }
 
 @font-face {
     font-family: "NeoSansIntel-Italic";
-    src: url("fonts/NeoSansIntel-Italic.ttf");
+    src: url("../fonts/NeoSansIntel-Italic.ttf");
 }
 
 @font-face {
     font-family: "NeoSansIntel-Medium";
-    src: url("fonts/NeoSansIntel-Medium.ttf");
+    src: url("../fonts/NeoSansIntel-Medium.ttf");
 }
 
 @font-face {
     font-family: "NeoSansIntel-MediumItalic";
-    src: url("fonts/NeoSansIntel-MediumItalic.ttf");
+    src: url("../fonts/NeoSansIntel-MediumItalic.ttf");
 }
 
 @font-face {
     font-family: "NeoSansIntel-LightItalic";
-    src: url("fonts/NeoSansIntel-LightItalic.ttf");
+    src: url("../fonts/NeoSansIntel-LightItalic.ttf");
 }
 
 @font-face {
     font-family: "NexaLight";
-    src: url("fonts/Nexa Light.otf");
+    src: url("../fonts/Nexa Light.otf");
 }
 
 .header {
@@ -46,7 +46,7 @@
     color: #ffff00;
     font: 400 28px NeoSansIntel;
     font-weight: bolder;
-    padding-top: 23px;
+    padding-top: 20px;
 }
 
 .jumbotron {
@@ -63,6 +63,7 @@
     position: relative;
     margin: 0 auto;
     width: 600px;
+    height: 455px;
 }
 
 .image-slider .left-arrow {
@@ -107,7 +108,7 @@
     transform: scaleX(-1);
     -webkit-filter: FlipH;
     filter: FlipH;
-    background: url(../../images/assets/left-arrow.png);
+    background: url(../images/assets/left-arrow.png);
     background-size: cover;
     height: 22px;
     width: 11px;
@@ -123,6 +124,8 @@
 .image-slider img {
     padding-top: 55px;
     margin: 0 auto;
+    width: 600px;
+    height: 455px;
 }
 
 #conference {
@@ -163,7 +166,7 @@
 
 @media only screen and (max-width: 600px) {
     .title-slider {
-        font-size: 21px;
+        font-size: 19px;
     }
     .jumbotron {
         height: auto;
@@ -185,5 +188,10 @@
         margin-left: 5%;
         margin-right: 5%;
         width: auto;
+        height: auto;
+    }
+    .image-slider img {
+        width: auto;
+        height: auto;
     }
 }
