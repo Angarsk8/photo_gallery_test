@@ -63,6 +63,7 @@
     position: relative;
     margin: 0 auto;
     width: 600px;
+    height: 455px;
 }
 
 .image-slider .left-arrow {
@@ -123,6 +124,8 @@
 .image-slider img {
     padding-top: 55px;
     margin: 0 auto;
+    width: 600px;
+    height: 455px;
 }
 
 #conference {
@@ -185,5 +188,10 @@
         margin-left: 5%;
         margin-right: 5%;
         width: auto;
+        height: auto;
+    }
+    .image-slider img {
+        width: auto;
+        height: auto;
     }
 }
