@@ -1,5 +1,14 @@
-# photo_gallery_test
+#PHOTO GALLERY TEST
+
 Elaboration of a photo gallery accordingly to the guidelines provided in the guidelines folder(Job Interview). I used yeoman to scaffold the structure of the project, bower to install all of the front-end dependencies and grunt to build the project and also to observe the changes in a local server. 
+
+##USAGE
+
+First of all, check you have installed Node.js and the Node Packaging Manager (npm). If so, run the following commands:
+
+1. `npm install` to install all of the dependecies listed in the Package.json file.
+2. `bower install` to install all of the front end dependencies listed in the bower.json file.
+3. `grunt serve` to run the actual application in a local server on the port 3000.
 
 ##PHOTO GALLERY EVALUATION
 
