@@ -4,7 +4,7 @@ Elaboration of a photo gallery accordingly to the guidelines provided in the gui
 
 ##USAGE
 
-First of all, check you have installed Node.js and the Node Packaging Manager (npm). If so, run the following commands:
+First of all, check you have installed Node.js and the Node Packaging Manager (npm). If so, run the following commands in a terminal in the root level of the folder:
 
 1. `npm install` to install all of the dependecies listed in the Package.json file.
 2. `bower install` to install all of the front end dependencies listed in the bower.json file.
